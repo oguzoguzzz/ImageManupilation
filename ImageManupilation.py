@@ -13,7 +13,7 @@ def apply_filter(image_path,filter_name):
         filtered.save('filtered.jpg')
 
 # Usage
-image_path ='example.jpg'
+image_path ='sassu.png'
 resize_image(image_path, 640x480)
 apply_filter(image_path, ImageFilter.SHARPEN)
 
